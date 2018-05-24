@@ -1,0 +1,118 @@
+<html>
+    <head>
+        
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="description" content="Affordable web page design" >
+        <meta name="keywords" content="web page, mobile, big data, MEAN stack, blockchain" >
+        <meta name="viewport" content="width=device-width" >
+        <meta name="author" content="Saravanan Umapathy" >
+        <title>Acme web page</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    
+    <body>
+        
+        <!-- header section is going to get repeated in all the pages -->
+        <header>
+            <div class="container">         <!-- If you look at the page, the whole content 
+                has some left and right space. So it is ideal to put all the content inside
+                a container so the we can need not take care of each tag's left and right
+                spacing for alignment. That is where 'container' class is used-->
+
+
+                <div id="branding"> <!-- branding and logo happens only once in 
+                    the web page. So it is ideal to have a separate section (meaning div)
+                    and introducing a class for that. Since this section is identified 
+                    separately it neccessitates a separate section -->
+                    <h2>Acme Web Design</h2> 
+                </div>
+                <nav>  <!-- Again this is a separate section -->
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+        </header>
+
+
+        <!-- Main content of the page goes here.... -->
+
+        <section id="newsletter">      <!-- 'id' again identifies the section -->
+            <div class="container">
+                
+                <h1>Subscribe to Our Newsletter</h1>
+                <form >
+                    <input type="email" name="emailId" id="email" placeholder="Enter your e-mail id">
+                    <button type="submit" class="button_1">Subscribe</button>
+                </form>
+            </div>
+        </section>
+        <section id="main">
+            <div class="container">  <!-- NOTE: Everytime a 'container' class is given, there is an indentation
+                                                in the code which you dont see even in inpect. Look this as a
+                                                prime suspect if you have problems with indentation -->
+                <article id="main-services">
+                    <h1>Services</h1>
+
+                    <ul>
+                        <li>
+                            <h3>Web Design</h3>
+                            <div>
+                                <p> Maecenas quam mauris, varius ac ante at, tempus malesuada nunc. Orci varius natoque 
+                                    penatibus et magnis dis parturient montes, nascetur ridi</p>
+                                <p>Pricing: $1,000 - $3,000</p>
+                            </div>
+                        </li>
+                        <li>
+                            <h3>Web Maintenance</h3>
+                            
+                        <div>
+                            <p> Maecenas quam mauris, varius ac ante at, tempus malesuada nunc. Orci varius natoque 
+                                penatibus et magnis dis parturient montes, nascetur ridi</p>
+                            <p>Pricing : $250 per month</p>
+                        </div>
+                        </li>
+
+                        <li>
+                            <h3>Web Hosting</h3>
+                        <div>
+                            <p> Maecenas quam mauris, varius ac ante at, tempus malesuada nunc. Orci varius natoque 
+                                penatibus et magnis dis parturient montes, nascetur ridi</p>
+                            <p>Pricing : $25 per month</p>
+                        </div>
+                        </li>
+                    </ul>
+                
+                    
+                </article>
+                <aside id="sidebar">
+                    <div class="darker">
+                        <div id="quote">
+                            <h1>Get a Quote</h1>
+                            <form>
+                                <label for="name">Name</label>
+                                <br><input type="text" id="qText">
+                                <br><label for="email">E-mail</label>
+                                <br><input type="email" name="qemail" id="qemail">
+                                <br><label for="message">Message</label>
+                                
+                                    <br>    <textarea name="qtxtArea" id="qtxtArea" cols="30" rows="10"></textarea>
+                                <br><br><button type="submit" class="button_1" id="sendButton" >Send</button>
+                                
+                            </form>
+                        </div>
+                    </div>
+                </aside>
+            </div> -->
+        </section>
+
+        <footer>
+            <p>Acme Web design &copy; 2018</p>
+
+        </footer>
+    </body>
+</html>

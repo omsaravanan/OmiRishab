@@ -1,0 +1,90 @@
+<html>
+    <head>
+        
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="description" content="Affordable web page design" >
+        <meta name="keywords" content="web page, mobile, big data, MEAN stack, blockchain" >
+        <meta name="viewport" content="width=device-width" >
+        <meta name="author" content="Saravanan Umapathy" >
+        <title>Acme web page</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    
+    <body>
+        
+        <!-- header section is going to get repeated in all the pages -->
+        <header>
+            <div class="container">         <!-- If you look at the page, the whole content 
+                has some left and right space. So it is ideal to put all the content inside
+                a container so the we can need not take care of each tag's left and right
+                spacing for alignment. That is where 'container' class is used-->
+
+
+                <div id="branding"> <!-- branding and logo happens only once in 
+                    the web page. So it is ideal to have a separate section (meaning div)
+                    and introducing a class for that. Since this section is identified 
+                    separately it neccessitates a separate section -->
+                    <h2>Acme Web Design</h2> 
+                </div>
+                <nav>  <!-- Again this is a separate section -->
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+        </header>
+
+
+        <!-- Main content of the page goes here.... -->
+
+        <section id="showcase">         <!-- 'id' to identify the section clearly -->
+
+            <div class="container">     <!-- why container class? Because we want it to be separately handled and make it centre aligned -->
+                                        <!-- 'container' class is used when the text is required to be pushed and to be placed in the middle  -->
+                <h1>Affordable web site design</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                     non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            </div>
+        </section>
+        
+        <section id="newsletter">      <!-- 'id' again identifies the section -->
+            <div class="container">
+                
+                <h1>Subscribe to Our Newsletter</h1>
+                <form >
+                    <input type="email" name="emailId" id="email" placeholder="Enter your e-mail id">
+                    <button type="submit" class="button_1">Subscribe</button>
+                </form>
+            </div>
+
+        </section>
+        <section id="boxes">
+            <div class="container">
+                <div class="box">
+                    <img src="./img/html5.png" alt="no_image.png">
+                    <h3>HTML 5 Markup</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>
+                </div>
+                <div class="box">
+                        <img src="./img/css3.png" alt="no_image.png">
+                        <h3>CSS 5</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>
+                </div>
+                <div class="box">
+                        <img src="./img/brush.png" alt="no_image.png">
+                        <h3>Design </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Acme Web design &copy; 2018</p>
+
+        </footer>
+    </body>
+</html>

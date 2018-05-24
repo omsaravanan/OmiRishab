@@ -1,0 +1,101 @@
+<html>
+    <head>
+        
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="description" content="Affordable web page design" >
+        <meta name="keywords" content="web page, mobile, big data, MEAN stack, blockchain" >
+        <meta name="viewport" content="width=device-width" >
+        <meta name="author" content="Saravanan Umapathy" >
+        <title>Acme web page</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    
+    <body>
+        
+        <!-- header section is going to get repeated in all the pages -->
+        <header>
+            <div class="container">         <!-- If you look at the page, the whole content 
+                has some left and right space. So it is ideal to put all the content inside
+                a container so the we can need not take care of each tag's left and right
+                spacing for alignment. That is where 'container' class is used-->
+
+
+                <div id="branding"> <!-- branding and logo happens only once in 
+                    the web page. So it is ideal to have a separate section (meaning div)
+                    and introducing a class for that. Since this section is identified 
+                    separately it neccessitates a separate section -->
+                    <h2>Acme Web Design</h2> 
+                </div>
+                <nav>  <!-- Again this is a separate section -->
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+        </header>
+
+
+        <!-- Main content of the page goes here.... -->
+
+        <section id="newsletter">      <!-- 'id' again identifies the section -->
+            <div class="container">
+                
+                <h1>Subscribe to Our Newsletter</h1>
+                <form >
+                    <input type="email" name="emailId" id="email" placeholder="Enter your e-mail id">
+                    <button type="submit" class="button_1">Subscribe</button>
+                </form>
+            </div>
+        </section>
+        <section id="main">
+            <div class="container">
+                <article id="main-col">
+                    <h1>About Us</h1>
+                    <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Vestibulum aliquam est ut cursus accumsan. Aenean tincidunt ligula sit
+                             amet ipsum aliquam interdum. Quisque feugiat malesuada felis vel commodo.
+                              Curabitur vitae lorem elementum, ultrices leo nec, ullamcorper sem. 
+                              Proin in arcu facilisis, malesuada dolor ut, mollis justo. 
+                              Nullam scelerisque faucibus ultrices. Nulla volutpat venenatis nisi. 
+                              Etiam commodo nisl mauris, nec accumsan tortor elementum in.
+                    </p>
+                    <p>
+                            Maecenas quam mauris, varius ac ante at, tempus malesuada nunc. Orci varius natoque 
+                            penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut eu porta mauris. 
+                            Ut ac ultricies justo. Aenean porta tincidunt vehicula. Suspendisse consequat orci sit
+                             amet libero accumsan, ut ornare quam faucibus. Nulla metus justo, pretium non suscipi
+                             t non, pulvinar efficitur purus. Sed efficitur viverra metus in tempus. Suspendisse 
+                             nec dui at magna imperdiet luctus vitae vel risus. Nullam elementum arcu nisi, vitae
+                              dictum leo vulputate sed. Interdum et malesuada fames ac ante ipsum primis in faucibus
+                              ullam aliquam laoreet tortor ut malesuada. Fusce viverra, sem vel ullamcorper fermentum,
+                               turpis quam efficitur felis, vel scelerisque lorem erat nec tortor. Proin eros elit,
+                                pellentesque nec malesuada vel, ornare non lacus. Nulla placerat, diam et interdum
+                                 vestibulum, nisi risus ultricies ante, sed iaculis erat arcu at massa. Ut orci libero,
+                                  consectetur a leo in, commodo egestas urna.
+                    </p>
+                </article>
+                <aside id="sidebar">
+                    <div class="dark">
+                        <h1>That is what we do</h1>
+                        <p>
+
+                                Maecenas quam mauris, varius ac ante at, tempus malesuada nunc. Orci varius natoque 
+                                penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut eu porta mauris. 
+                                Ut ac
+                        </p>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <footer>
+            <p>Acme Web design &copy; 2018</p>
+
+        </footer>
+    </body>
+</html>
